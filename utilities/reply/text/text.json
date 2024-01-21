@@ -1,0 +1,9 @@
+{
+    "start":"**👋 Hey {}!** This bot lets you get an answer of quiz poll. \n\nJust send me the telegram message url of the quiz poll, I will give you the answer.",
+    "correct_poll":"The correct quiz answer is `{}`.",
+    "wrong_poll":"⚠️ **Wrong poll**\n\n__Please make sure you sent a quiz mode poll.__",
+    "wrong_type":"⚠️ **Wrong message** \n\n__Please make sure you sent poll.__",
+    "wrong_link":"**⚠️ Wrong link**\n\n__Please make sure you sent telegram link.__",
+    "wrong_message":"⚠️ **Wrong Message**\n\nPlease make sure you sent telegram message url which the message is poll.",
+    "user_msg":"{} {}"
+}
