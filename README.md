@@ -25,7 +25,7 @@ mongo_token = "" # Mongo key from https://www.mongodb.com/atlas/database, Want t
 ```
 ## ⚙️  Usage
 User and Admin
-- Forward quiz poll from public chat, it will give you poll answer.
+- Copy message url of the poll and send it to the bot, it will reply to you with the answer.
 
 Admin only
 - Reply to your message with /broadcast command to broadcast to all users that started the bot.
