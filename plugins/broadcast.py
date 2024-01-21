@@ -1,4 +1,5 @@
-from pyrogram.client import Client as app,filters
+from pyrogram.client import Client as app
+from pyrogram import filters
 from config import owner_id
 from utilities.database import Database 
 import asyncio

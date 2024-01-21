@@ -15,4 +15,4 @@ async def start(client, message):
         Database.add_user(chat_id)
     
     first_name = message.from_user.first_name
-    await message.reply(text["start"].format(first_name), reply_markup=button.start)
+    await message.reply(text["start"].format(first_name), reply_markup=button.start_btn)
