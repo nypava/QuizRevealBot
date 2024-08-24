@@ -17,7 +17,7 @@ async def main(client:app, message:Message):
 
         getted_message = await client.get_messages(poll_chat_id, int(poll_message_id))
 
-        if getted_message.poll.correct_option_id:
+        if str(getted_message.poll.correct_option_id):
             correct_poll_id = getted_message.poll.correct_option_id
             correct_poll_text = getted_message.poll.options[correct_poll_id].text
             await message.reply(text["user_msg"].format(int(chat_id), correct_poll_text))
